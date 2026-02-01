@@ -1,0 +1,43 @@
+constructhub/
+├── index.html                    # Glavna HTML datoteka
+├── README.md                     # Dokumentacija projekta
+├── LICENSE                       # Licenca
+│
+├── assets/
+│   ├── css/
+│   │   ├── main.css             # Glavni stilovi
+│   │   ├── components.css       # Stilovi komponenti
+│   │   └── responsive.css       # Mobilni stilovi
+│   │
+│   ├── js/
+│   │   ├── app.js               # Glavna aplikacija
+│   │   ├── auth.js              # Autentifikacija
+│   │   ├── database.js          # Baza podataka (localStorage)
+│   │   ├── router.js            # Rutiranje
+│   │   ├── components.js        # UI komponente
+│   │   ├── pages.js             # Stranice
+│   │   ├── modals.js            # Modalni prozori
+│   │   └── utils.js             # Pomoćne funkcije
+│   │
+│   └── images/
+│       ├── logo.png             # Logo
+│       ├── icons/               # Ikone
+│       └── placeholders/        # Placeholder slike
+│
+├── pages/
+│   ├── admin/
+│   │   ├── dashboard.html
+│   │   ├── jobs.html
+│   │   ├── users.html
+│   │   └── analytics.html
+│   │
+│   └── user/
+│       ├── dashboard.html
+│       ├── listings.html
+│       ├── applications.html
+│       └── profile.html
+│
+└── docs/
+    ├── setup.md                 # Upute za instalaciju
+    ├── api.md                   # API dokumentacija
+    └── deployment.md            # Upute za deployment
